@@ -1,0 +1,120 @@
+positive: Imagine a group of Despicable Me Minions dressed in festive Santa hats and cozy scarves, standing together to decorate a Christmas tree. One Minion is reaching up to place a star on top, while others hang ornaments and lights. The watercolor style brings a soft, cheerful glow to their holiday teamwork.
+negative: EMPTY
+-----------------
+positive: Create a scene of three Despicable Me Minions dressed as carolers, wearing Victorian-style hats, scarves, and mittens, holding little songbooks. Painted in watercolor, the Minions are singing joyfully, surrounded by softly falling snowflakes and twinkling holiday lights.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions wearing Christmas pajamas, sitting around a cozy fireplace. Each Minion has a mug of hot cocoa with marshmallows, and they look delighted as they tell stories and share laughs. The watercolor tones add a warm, festive feel to the scene.
+negative: EMPTY
+-----------------
+positive: Design a gathering of Despicable Me Minions wearing elf outfits, all working in a toy workshop. Some are wrapping gifts, others are painting toys, and one Minion is holding a candy cane. The soft watercolor style gives a cheerful, busy holiday vibe to the scene.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions building a snowman together, each wearing a unique winter outfit with hats, scarves, and mittens. One Minion is rolling a large snowball while others add a carrot nose and coal eyes. The soft watercolor effect adds to the joyful winter energy.
+negative: EMPTY
+-----------------
+positive: Create a scene with several Despicable Me Minions dressed in reindeer antlers and holiday sweaters, pulling a sled filled with gifts. The Minions look determined and playful, and the watercolor style brings a gentle, snowy atmosphere to the adventure.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions gathered around a large gingerbread house they’ve decorated with icing and candy. Some Minions are wearing aprons, while others have candy canes and frosting bags, all looking excited about their colorful holiday creation in soft watercolor hues.
+negative: EMPTY
+-----------------
+positive: Design a Christmas morning scene with a group of Despicable Me Minions opening presents under a decorated tree. Each Minion is dressed in a different holiday outfit, with expressions of surprise and joy as they unwrap gifts. The watercolor style adds warmth and charm to the festive atmosphere.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions dressed as holiday shoppers, carrying colorful shopping bags and wrapped presents. They’re bundled up in winter coats, hats, and scarves, walking through a snowy, watercolor-style winter wonderland with joyful expressions.
+negative: EMPTY
+-----------------
+positive: Create a playful scene with multiple Despicable Me Minions having a Christmas cookie decorating party. Each Minion is holding a decorated cookie or frosting tube, and some are wearing holiday aprons. The soft watercolor tones bring a sense of warmth and holiday fun to the creative activity.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions dressed in Christmas sweaters and Santa hats, gathered around a big table making holiday crafts. Some Minions are holding paintbrushes, others are cutting paper snowflakes, and they’re all smiling with excitement. The soft watercolor style adds a cozy, creative holiday feel.
+negative: EMPTY
+-----------------
+positive: Create a scene of several Despicable Me Minions dressed as reindeer with red noses and antlers, lined up as if they’re ready to pull Santa’s sleigh. One Minion dressed as Santa is sitting in the sleigh, and all have cheerful, determined expressions. The watercolor style brings a light-hearted holiday magic to the scene.
+negative: EMPTY
+-----------------
+positive: Picture a trio of Despicable Me Minions in holiday costumes ice skating on a frozen pond. They’re bundled up in colorful scarves and hats, with big smiles as they skate and stumble on the ice. The soft watercolor style captures the playful winter joy of their activity.
+negative: EMPTY
+-----------------
+positive: Design a cozy living room scene where several Despicable Me Minions are decorating a Christmas tree together. Some are on a ladder, others are placing gifts beneath the tree, and all are dressed in festive pajamas. The watercolor style adds warmth and cheer to this holiday moment.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions having a snowball fight in a snowy field. Each Minion is dressed in a unique winter outfit, with scarves, earmuffs, and mittens, tossing snowballs and laughing. The watercolor tones add a whimsical, frosty charm to their winter fun.
+negative: EMPTY
+-----------------
+positive: Create a scene where several Despicable Me Minions are decorating gingerbread cookies together. Some Minions are wearing chef hats and aprons, while others are adding icing and sprinkles to the cookies. The soft watercolor effect enhances the warmth and joy of their holiday baking.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions dressed as Christmas elves, sitting around a tiny holiday feast with plates of cookies, pies, and candy canes. Each Minion has a unique elf hat, and they’re all smiling and enjoying the treats in a cozy, festive scene.
+negative: EMPTY
+-----------------
+positive: Design a winter scene with multiple Despicable Me Minions standing around a Christmas bonfire, each holding a marshmallow stick. The Minions are bundled up in holiday sweaters and hats, with soft watercolor tones creating a warm, cheerful glow in the cold night.
+negative: EMPTY
+-----------------
+positive: Imagine several Despicable Me Minions at a holiday gift-wrapping station, each Minion working on wrapping a present. Some are using scissors and tape, while others are adding bows and tags, dressed in festive holiday sweaters. The watercolor style adds a playful and busy holiday spirit to their work.
+negative: EMPTY
+-----------------
+positive: Create a cozy scene with a group of Despicable Me Minions dressed in Christmas pajamas, sitting by a decorated Christmas tree and reading a holiday storybook together. The Minions look engaged and happy, with gentle watercolor colors enhancing the warmth and peacefulness of the scene.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions bundled up in Christmas scarves and hats, gathered around a snow-covered Christmas tree in the middle of a snowy forest. Some are hanging ornaments, while others are holding tiny candles, creating a peaceful, magical scene in soft watercolor tones.
+negative: EMPTY
+-----------------
+positive: Create a festive scene of several Despicable Me Minions dressed as Santa’s helpers, riding on a sleigh filled with gifts. Some Minions are holding presents while others are waving, with a joyful expression as they glide through a snowy landscape in a gentle watercolor style.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions dressed in matching red pajamas, building a gingerbread house together. Each Minion has a tiny frosting tube, placing candy pieces and gumdrops with concentration and delight. The watercolor effect gives a warm, cozy feeling to their holiday activity.
+negative: EMPTY
+-----------------
+positive: Design a holiday party scene with multiple Despicable Me Minions in colorful Christmas sweaters, dancing and celebrating. Some Minions are holding candy canes, others are wearing party hats, and all are smiling and laughing, with soft watercolor shades capturing the festive energy.
+negative: EMPTY
+-----------------
+positive: Imagine several Despicable Me Minions standing in line to meet a Minion dressed as Santa Claus. Each Minion has a unique winter outfit, holding little gifts or wish lists, with expressions of excitement. The watercolor style gives a charming, playful touch to this holiday scene.
+negative: EMPTY
+-----------------
+positive: Create a scene where a group of Despicable Me Minions are sledding down a snowy hill together. Each Minion is bundled up in winter gear with bright scarves and mittens, laughing and cheering as they slide down. The soft watercolor tones add a whimsical, wintery feel.
+negative: EMPTY
+-----------------
+positive: Picture several Despicable Me Minions dressed in Christmas onesies, gathered around a pile of presents they’ve just unwrapped. Some are holding toys or candy, with wide-eyed excitement, and the watercolor style adds a warm glow to the holiday morning scene.
+negative: EMPTY
+-----------------
+positive: Design a holiday movie night with a group of Despicable Me Minions in cozy pajamas, gathered around a TV with a Christmas movie playing. Some Minions are holding popcorn and hot chocolate, with relaxed smiles, creating a snug, festive atmosphere in soft watercolor.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions dressed as reindeer with tiny antlers and red noses, playfully chasing each other in a snowy field. Some are throwing snowballs, others are pretending to pull a sleigh, with a joyful, light-hearted vibe in gentle watercolor tones.
+negative: EMPTY
+-----------------
+positive: Create a scene with several Despicable Me Minions decorating a cozy cabin for Christmas. Some are hanging garlands, others are lighting candles, and they’re all wearing holiday sweaters. The watercolor style adds warmth and a festive glow to this charming winter setting.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions decorating a giant holiday wreath, each one holding ornaments, ribbons, or bows. They’re dressed in festive red and green outfits, working together with happy expressions, and the soft watercolor style adds a cheerful, warm vibe.
+negative: EMPTY
+-----------------
+positive: Create a scene with several Despicable Me Minions bundled up in winter coats, scarves, and mittens, picking out a Christmas tree in a snowy tree lot. Some are pointing excitedly at different trees, while others are pulling a tiny sled. The watercolor effect gives a whimsical, joyful feel to the holiday adventure.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions dressed in holiday pajamas, each sitting in front of a pile of Christmas cookies. They’re decorating cookies with sprinkles and frosting, laughing and sneaking bites. The soft watercolor tones create a cozy, homey feel to this holiday activity.
+negative: EMPTY
+-----------------
+positive: Design a scene of Despicable Me Minions at a holiday gift exchange, each dressed in a unique Christmas sweater and holding a wrapped present. They’re smiling and trading gifts with excitement, surrounded by holiday cheer in a warm watercolor style.
+negative: EMPTY
+-----------------
+positive: Imagine several Despicable Me Minions playing in the snow, building a large fort together. Some are stacking snowballs, others are peeking out from behind walls, all dressed in winter gear. The watercolor style gives a playful, light-hearted winter vibe.
+negative: EMPTY
+-----------------
+positive: Create a festive scene with multiple Despicable Me Minions sitting around a tiny, decorated dinner table, sharing a holiday meal. Each Minion has a small plate of treats, and they’re wearing holiday hats and sweaters, enjoying the feast in a soft, warm watercolor style.
+negative: EMPTY
+-----------------
+positive: Picture a group of Despicable Me Minions dressed as Christmas characters—one as Santa, others as elves or reindeer. They’re all posing for a funny holiday photo, with big smiles and holiday spirit captured in gentle, cheerful watercolor tones.
+negative: EMPTY
+-----------------
+positive: Design a cozy scene with several Despicable Me Minions making holiday cards, each one with a paintbrush or crayon in hand. They’re wearing Christmas sweaters and working together happily, with soft watercolor hues adding a creative, festive charm.
+negative: EMPTY
+-----------------
+positive: Imagine a group of Despicable Me Minions standing together as they light a tiny Christmas tree, each one holding a small candle. They’re all dressed in festive winter clothing, with peaceful smiles and watercolor shades creating a warm holiday glow.
+negative: EMPTY
+-----------------
+positive: Create a scene where several Despicable Me Minions are decorating a snowy cabin by hanging colorful Christmas lights and wreaths. They’re all bundled up in holiday scarves and hats, working together with smiles and laughter. The soft watercolor effect enhances the cozy holiday atmosphere.
+negative: EMPTY
+-----------------

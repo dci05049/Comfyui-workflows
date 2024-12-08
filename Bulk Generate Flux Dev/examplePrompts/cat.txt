@@ -1,0 +1,30 @@
+positive: A charming clip art illustration of a small, fluffy kitten with big, sparkling anime-style eyes, looking up curiously. The kitten has soft, golden fur with white-tipped paws and ears. Its tail is long and curled around its body, and it wears a cute bowtie around its neck. The background is minimal and clean, ideal for a transparent PNG.
+negative: EMPTY
+-----------------
+positive: A cute clip art illustration of a playful kitten with big anime eyes, sitting with its paw raised as if waving. The kitten has soft, gray fur with stripes and a tiny pink heart-shaped nose. Its ears are perked up, and it is wearing a simple red ribbon collar. The background is left blank and transparent for easy use.
+negative: EMPTY
+-----------------
+positive: An adorable clip art illustration of a fluffy kitten lying on its back with big, shining anime-style eyes and a joyful smile. The kitten's fur is soft and white with light orange patches, and its little paws are up in the air, playfully swatting at a floating butterfly. The background is simple and clean, perfect for a transparent PNG.
+negative: EMPTY
+-----------------
+positive: A sweet clip art illustration of a sleepy kitten with big, droopy anime-style eyes, cuddling a tiny plush mouse toy. The kitten has soft, fluffy light gray fur, with its head resting on its paws. There’s a small blue blanket partially covering its body. The background is blank and transparent, making it easy to add to any design.
+negative: EMPTY
+-----------------
+positive: A playful clip art illustration of a mischievous kitten with big, wide anime eyes, peeking out from behind a potted plant. The kitten has soft black and white fur, and its tail is sticking up with excitement. The plant pot is simple and cute, with a small green plant that has cartoon-style leaves. The background is left minimal and transparent, perfect for a PNG.
+negative: EMPTY
+-----------------
+positive: A delightful clip art illustration of a fluffy kitten with big, twinkling anime-style eyes, holding a small ball of yarn. The kitten’s fur is soft and light brown, with white paws and a pink-tipped nose. Its ears are perked up, and it looks ready to pounce. The ball of yarn is bright red, adding a pop of color, with the background left blank and transparent.
+negative: EMPTY
+-----------------
+positive: A charming clip art illustration of a small kitten with big, innocent anime-style eyes, sitting with a tilted head and a curious expression. The kitten has soft, calico fur with a mix of white, black, and orange patches. It is wearing a tiny flower crown made of daisies, giving it a whimsical look. The background is clean and transparent for easy use.
+negative: EMPTY
+-----------------
+positive: A playful clip art illustration of a fluffy kitten with big, expressive anime-style eyes, crouched in a pouncing position. The kitten has soft, cream-colored fur with a white belly and pink paw pads. It is wearing a cute, blue bandana around its neck, and there are a few cartoon-style butterflies fluttering around. The background is left blank and transparent.
+negative: EMPTY
+-----------------
+positive: A cute clip art illustration of a kitten with big, sparkling anime-style eyes, sitting in a teacup with its paws hanging over the edge. The kitten has soft, ginger fur with white accents, and the teacup is decorated with simple pastel flowers. The kitten has a playful, curious look, and the background is clean and transparent, perfect for use as a PNG.
+negative: EMPTY
+-----------------
+positive: An adorable clip art illustration of a fluffy kitten with big, sparkling anime eyes, standing on its hind legs, reaching up as if begging for a treat. The kitten has soft, light gray fur with a white belly and tiny pink toe beans. It is wearing a tiny bow around its neck, and there are small cartoon stars surrounding it. The background is minimal and transparent, making it suitable for any design.
+negative: EMPTY
+-----------------

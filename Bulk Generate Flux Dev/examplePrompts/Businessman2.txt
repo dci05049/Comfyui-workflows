@@ -1,0 +1,150 @@
+positive: Photorealistic image of a middle-aged businesswoman with short, styled gray hair, wearing a dark blazer and pearl necklace. She is sitting at a desk in a modern office, reviewing documents with a laptop open beside her. Her expression is calm and focused, showing experience and professionalism. Warm, natural lighting highlights her features.
+negative: EMPTY
+-----------------
+positive: High-quality image of a young Asian businessman in his mid-20s, dressed in a light gray suit with a slim tie. He is standing near a large glass window with a cityscape in the distance, looking slightly to the side with a confident smile. Shot from a side angle, capturing a casual, friendly vibe.
+negative: EMPTY
+-----------------
+positive: Close-up shot of an African-American woman in her early 30s, dressed in a dark green blouse and blazer, wearing stylish glasses. She is standing with arms crossed in a bright, minimalist office, with a warm smile showing confidence and approachability.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a senior male executive in his late 50s, wearing a classic navy suit and striped tie. He is seated at a large conference table, with a tablet and coffee cup in front of him. His expression is thoughtful as he leans forward, appearing engaged in a meeting.
+negative: EMPTY
+-----------------
+positive: Full-body image of a young Latina businesswoman in her late 20s, dressed in a tailored white blouse and black pants, standing confidently with a notebook in hand. She is positioned by a glass partition in a corporate workspace, facing the camera with a poised expression.
+negative: EMPTY
+-----------------
+positive: Professional shot of a South Asian businessman in his 40s, wearing a dark blue suit with no tie, seated comfortably on a modern chair in an open office area. He is smiling warmly, looking into the distance, creating a sense of openness and friendliness.
+negative: EMPTY
+-----------------
+positive: Over-the-shoulder view of a young African-American man in his early 20s, dressed in a stylish blazer and casual shirt, working on a laptop in a coworking space. His posture is relaxed but focused, and the image shows a busy office environment around him.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a female executive in her 50s with a sophisticated hairstyle, wearing a white blazer and delicate jewelry. She is standing in a corporate hallway with large windows, holding a smartphone, and looking off-camera with a confident smile.
+negative: EMPTY
+-----------------
+positive: Side profile of a young Middle Eastern man in his late 20s, wearing a fitted suit jacket and open-collared shirt. He is seated in a modern office lobby with sunlight casting soft shadows, deep in thought while reviewing documents on a tablet.
+negative: EMPTY
+-----------------
+positive: High-quality image of a businesswoman in her 40s with Southeast Asian features, dressed in a formal dress and blazer. She is presenting in a meeting room with a screen behind her displaying graphs. Her expression is engaging, and she gestures with one hand to emphasize a point.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young, mixed-race woman in her early 30s, wearing a fitted black blazer and white blouse. She is sitting on the edge of a desk with arms crossed, facing the camera with a friendly, approachable expression in a modern office space with minimal decor.
+negative: EMPTY
+-----------------
+positive: Close-up of a mature male executive of East Asian descent in his 50s, wearing a dark suit and red tie. He is seated with hands clasped, looking directly into the camera with a serious yet welcoming expression, in a softly lit, high-end boardroom.
+negative: EMPTY
+-----------------
+positive: High-angle shot of a young African-American man in his 20s, wearing a light blue shirt and suspenders, seated at a desk in a coworking space. He is looking up and smiling as if engaging in conversation, with a notepad and coffee mug next to him.
+negative: EMPTY
+-----------------
+positive: Full-body image of a female professional in her late 30s with long blonde hair, wearing a stylish, fitted navy pantsuit. She is standing near a glass wall in a sunlit office, holding a folder and looking off to the side with a thoughtful expression.
+negative: EMPTY
+-----------------
+positive: Wide-angle shot of a young man of Hispanic descent in his mid-20s, wearing a casual blazer and jeans, leaning casually against a desk in an open workspace. He has a confident, relaxed smile as he interacts with unseen colleagues.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of an older woman of Indian descent, around 60 years old, wearing a light-colored sari and blazer. She is seated in an office lounge area, looking at a tablet with a content smile, exuding wisdom and warmth.
+negative: EMPTY
+-----------------
+positive: Side view of a Middle Eastern man in his 30s, with a neatly trimmed beard and glasses, wearing a light brown suit. He is sitting in a bright office space, deeply focused on a laptop, with an expression of concentration and professionalism.
+negative: EMPTY
+-----------------
+positive: Over-the-shoulder view of a young, red-haired woman in her mid-20s, wearing a gray sweater and blazer. She is typing on a laptop in a cozy, well-lit office corner, with her face showing calm focus as she works.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a male executive of African descent in his 40s, wearing a stylish dark blue suit and a wristwatch. He is seated on a leather office chair with crossed arms, looking slightly to the side with a thoughtful, composed expression.
+negative: EMPTY
+-----------------
+positive: Close-up of a young Asian woman in her late 20s, dressed in a crisp white blouse, standing by a glass door with arms folded. She has a bright, genuine smile and is looking directly at the camera, with soft, natural light highlighting her features.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young male professional of Hispanic descent, in his mid-20s, wearing a fitted blue blazer over a casual shirt. He is seated at a café table with a laptop, holding a coffee cup and looking off-camera with a relaxed, thoughtful expression.
+negative: EMPTY
+-----------------
+positive: High-quality image of an African-American woman in her late 40s, dressed in a bold red blouse and black pants. She is standing in front of a whiteboard in a meeting room, gesturing as she speaks with confidence and enthusiasm.
+negative: EMPTY
+-----------------
+positive: Full-body image of a mature white male executive in his 60s, with salt-and-pepper hair, dressed in a classic black suit and light blue shirt. He is standing by a large window overlooking the city, hands in pockets, and smiling with a warm, approachable expression.
+negative: EMPTY
+-----------------
+positive: Close-up of a young East Asian woman in her mid-20s, wearing a light green blouse and glasses, working at her desk. She is looking at the screen with focused attention, soft ambient lighting illuminating her face in a minimalist office.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a South Asian man in his early 40s, dressed in a dark vest over a white shirt and tie. He is standing by a large glass wall, looking directly at the camera with a welcoming smile, in a modern, open office space.
+negative: EMPTY
+-----------------
+positive: Over-the-shoulder shot of a young African-American man in his late 20s, wearing a casual button-down shirt and a smartwatch. He is in a lively coworking space, talking to colleagues while holding a tablet, showing a collaborative, upbeat energy.
+negative: EMPTY
+-----------------
+positive: Wide-angle view of a businesswoman of Middle Eastern descent, in her late 30s, wearing a chic navy dress and scarf. She is standing confidently by a presentation screen, with an open hand gesture, as if explaining a concept to an audience.
+negative: EMPTY
+-----------------
+positive: Side profile of a Caucasian male professional in his mid-30s with short brown hair, dressed in a dark blue suit. He is seated at a conference table with a pen in hand, intently listening, with office decor and large windows around him.
+negative: EMPTY
+-----------------
+positive: High-quality image of a Southeast Asian woman in her early 50s, wearing a bright yellow blouse and silver jewelry. She is standing by her desk with arms crossed, smiling warmly, in a well-decorated corporate office with natural light.
+negative: EMPTY
+-----------------
+positive: Close-up shot of a young biracial man in his early 20s with curly hair, wearing a stylish plaid shirt under a blazer. He is looking into the camera with a confident smile, seated in a trendy, modern workspace with plants and light wood accents.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young South Asian woman in her late 20s, wearing a white blouse and black trousers, standing by a large office window with a tablet in hand. She is looking out the window with a slight smile, as natural light illuminates her face.
+negative: EMPTY
+-----------------
+positive: Close-up of a senior African-American man in his 60s, dressed in a dark blazer with a patterned scarf. He is seated at a polished desk in a formal office, looking thoughtfully at his laptop, with a pen and notebook beside him, portraying wisdom and experience.
+negative: EMPTY
+-----------------
+positive: Full-body image of a young white woman in her early 30s with shoulder-length brown hair, wearing a fitted red blazer and black skirt. She is walking through a busy office hallway with a cheerful smile, holding a notebook and coffee cup.
+negative: EMPTY
+-----------------
+positive: Side profile of a middle-aged Hispanic man in his 40s with neatly combed black hair, dressed in a gray suit with no tie. He is seated at a meeting table, nodding as he listens attentively to a presentation, with a few office colleagues visible in the background.
+negative: EMPTY
+-----------------
+positive: Wide-angle view of a young Asian woman in her mid-20s, wearing a stylish green blouse and jeans, leaning over her desk in a creative office space. She is looking at a large monitor with focused attention, surrounded by minimal decor and office plants.
+negative: EMPTY
+-----------------
+positive: High-quality image of a mature white woman in her early 50s, with short gray hair and glasses, dressed in a light blue blazer and blouse. She is sitting comfortably in a lounge area of an office, holding a coffee mug and smiling as she looks off-camera.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young African-American man in his late 20s, dressed in a black turtleneck and blazer, seated on a stool in a modern office with brick walls. He has a friendly, confident expression as he looks directly at the camera, giving a casual yet professional vibe.
+negative: EMPTY
+-----------------
+positive: Over-the-shoulder shot of a Middle Eastern woman in her early 30s, wearing a white hijab and a dark gray suit jacket. She is seated at her desk, working on a laptop, with a calm and focused expression, in a minimalist, bright office setting.
+negative: EMPTY
+-----------------
+positive: Close-up image of a young Latino man in his mid-20s with short, curly hair, dressed in a light blue dress shirt and tie. He is looking confidently into the camera while seated at a desk with his hands clasped, in a professional office setting.
+negative: EMPTY
+-----------------
+positive: Full-body image of a young biracial woman in her late 20s, wearing a tailored black blazer and pants, standing with arms crossed in front of a large presentation screen in a conference room. She has a poised expression, ready to present to an unseen audience.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young East Asian man in his early 30s with short black hair, wearing a light blue shirt and slim-fit navy suit. He is standing by a whiteboard covered in notes, holding a marker, looking engaged and focused as if in mid-presentation.
+negative: EMPTY
+-----------------
+positive: Close-up shot of a mature African-American woman in her mid-50s with natural curly hair, wearing a bright orange blazer. She is sitting at a desk with a thoughtful smile, reviewing a document under warm lighting, in a well-decorated executive office.
+negative: EMPTY
+-----------------
+positive: Full-body shot of a young white male professional in his mid-20s, with a neat beard, wearing a checked shirt and gray slacks. He is leaning casually against a high table in a coworking space, holding a coffee cup and looking into the distance with a relaxed expression.
+negative: EMPTY
+-----------------
+positive: Side profile of a Latina businesswoman in her late 30s with dark brown hair, wearing a green dress and blazer. She is sitting at a desk, gesturing with her hands as if explaining something in a one-on-one meeting, with a friendly and open expression.
+negative: EMPTY
+-----------------
+positive: Wide-angle view of a young Indian woman in her mid-20s, wearing a black pantsuit, seated at a long conference table in a bright, open office. She is looking down at her notebook, writing thoughtfully, with a laptop open beside her.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a senior white man in his 60s with a clean-shaven face and glasses, dressed in a dark suit and white shirt. He is standing by a large office window, holding a tablet, looking off to the side with a serious, contemplative expression.
+negative: EMPTY
+-----------------
+positive: Over-the-shoulder shot of a young Black woman in her early 20s, with braided hair, dressed in a casual blazer and t-shirt, sitting at a shared desk. She is focused on her laptop screen, with a background of office greenery and modern decor.
+negative: EMPTY
+-----------------
+positive: Close-up image of a Middle Eastern man in his mid-40s, with short dark hair and a beard, dressed in a white shirt and gray vest. He is seated at a desk, looking thoughtfully at his computer screen, with a cup of coffee beside him in a contemporary office.
+negative: EMPTY
+-----------------
+positive: Full-body shot of an East Asian woman in her 40s, wearing a stylish black dress and gold jewelry. She is standing in front of a group of colleagues in a boardroom, using hand gestures to emphasize a point, with a confident and professional expression.
+negative: EMPTY
+-----------------
+positive: Photorealistic image of a young Latino man in his late 20s, dressed in a blue dress shirt and slacks, standing by a whiteboard in a startup-style office. He is smiling warmly, holding a marker, as if explaining an idea to unseen team members.
+negative: EMPTY
+-----------------

@@ -1,0 +1,48 @@
+positive: A sweet raccoon with soft, rounded features and bright, kind eyes is sitting comfortably in a patch of grass, cradling a baby bluebird in its gentle paws. The raccoon has a warm, gentle smile, and a small flower crown made of daisies rests on its head. The bluebird is chirping happily, and a few delicate petals float in the air, creating a serene and heartwarming scene. The background is minimal, with only a few blades of grass and petals, emphasizing the loving bond between the raccoon and the bird, making it ideal for nature-inspired or friendship-themed clip art.
+negative: EMPTY
+-----------------
+positive: A lovable raccoon with big, twinkling eyes and a gentle smile is sitting on a cozy log, surrounded by a small group of colorful forest mushrooms. The raccoon is holding a sketchbook and a pencil, as if it's lost in the joy of drawing nature. Its striped tail is curled around the log, and a tiny butterfly has landed on one of its ears, making the scene even more enchanting. The background is kept clean and white, highlighting the raccoon’s creativity and making it perfect for art or nature-themed clip art.
+negative: EMPTY
+-----------------
+positive: A playful raccoon dressed as a mini pirate is standing confidently on a treasure chest, holding a toy sword in one paw and a small, pretend pirate flag in the other. The raccoon’s pirate hat is slightly askew, and there’s a mischievous sparkle in its eyes as it strikes a triumphant pose. Gold coins and jewels spill out of the chest, and a seagull stands nearby, looking curiously at the raccoon. The background is simple and white, emphasizing the adventurous, imaginative scene, making it ideal for pirate or adventure-themed clip art.
+negative: EMPTY
+-----------------
+positive: A curious raccoon with big, wonder-filled eyes is peeking over the edge of a wooden crate filled with juicy, freshly picked apples. The raccoon’s paws are playfully holding an apple, and its cheeks have a slight blush as if it’s just taken a tasty bite. A few apples are scattered around the crate, and a small, friendly worm is popping out of one, smiling at the raccoon. The background is minimal and white, keeping the focus on the raccoon and the playful, autumn-inspired theme, making it perfect for seasonal or harvest-themed clip art.
+negative: EMPTY
+-----------------
+positive: A cozy raccoon bundled up in a fluffy, oversized winter scarf and earmuffs is sitting on a snowy patch, building a small snow raccoon. The raccoon’s eyes are sparkling with joy, and its tail is covered in snowflakes, giving a playful wintery feel. A hot cup of cocoa with whipped cream and a candy cane sits beside the raccoon, steaming in the cold air. The background is white, with a few soft snowflakes falling around, making it perfect for holiday or winter-themed clip art.
+negative: EMPTY
+-----------------
+positive: An energetic raccoon with a playful grin is riding a tiny red tricycle, pedaling enthusiastically with its striped tail trailing behind. The raccoon is wearing a little helmet decorated with star stickers, and there’s a small basket on the front of the tricycle, holding a bunch of colorful wildflowers. The wheels of the tricycle are kicking up a few leaves, adding a sense of movement and fun to the scene. The background is simple and white, highlighting the playful, adventurous nature of the raccoon, making it ideal for kids’ or adventure-themed clip art.
+negative: EMPTY
+-----------------
+positive: A cheerful raccoon with bright, curious eyes and a happy grin is holding a rainbow-colored umbrella as it dances in the rain. The raccoon’s fur is slightly damp, and its tail is raised playfully as water droplets splash around. A few colorful rain boots and puddles surround the raccoon, and small raindrops are illustrated in the air, adding to the joyful, rainy-day scene. The background is white, making the playful, weather-themed illustration perfect for clip art.
+negative: EMPTY
+-----------------
+positive: A gentle raccoon with soft, caring eyes is holding a small watering can, carefully watering a bed of blooming sunflowers. The raccoon is wearing a little straw gardening hat with a flower tucked into the brim, and there’s a ladybug perched on one of the sunflowers, adding to the scene’s charm. The background is clean and white, focusing on the raccoon and its gardening activities, making it ideal for nature or gardening-themed clip art.
+negative: EMPTY
+-----------------
+positive: A mischievous raccoon with wide, sparkling eyes and a playful expression is sitting in a tree, surrounded by a pile of colorful autumn leaves. The raccoon is tossing a handful of leaves into the air, and its tail is wrapped around the tree branch, emphasizing its playful nature. A few leaves are gently drifting down, adding a sense of movement to the scene. The background is simple and white, making it perfect for fall or playful outdoor-themed clip art.
+negative: EMPTY
+-----------------
+positive: A loving raccoon with big, kind eyes and a warm smile is holding a heart-shaped balloon tied to its paw. The raccoon’s cheeks are slightly blushed, and it has a small bow tie around its neck, adding to the cuteness. A few tiny hearts float around the raccoon, creating a sweet, romantic atmosphere. The background is minimal and white, making the scene perfect for Valentine’s Day or love-themed clip art.
+negative: EMPTY
+-----------------
+positive: A sleepy raccoon with droopy eyes and a gentle smile is wrapped up in a soft, polka-dotted blanket, sitting next to a glowing lantern. The raccoon is holding a small bedtime storybook in one paw, and a tiny owl friend is perched on its head, both looking cozy and ready for a bedtime story. The background is clean and white, emphasizing the warm, nighttime theme, making it ideal for bedtime or cozy-themed clip art.
+negative: EMPTY
+-----------------
+positive: A joyful raccoon with big, excited eyes and a happy grin is flying a bright, colorful kite in the shape of a star. The raccoon is standing on its hind legs, with one paw holding the kite string tightly while the other is raised in excitement. Its tail is waving in the breeze, and a few scattered clouds float around the kite, giving a sense of a breezy day. The background is simple and white, making the playful, outdoor scene perfect for spring or activity-themed clip art.
+negative: EMPTY
+-----------------
+positive: A cute raccoon with a curious expression is holding a magnifying glass, inspecting a small collection of shiny acorns and leaves. The raccoon has a little detective hat on its head and a tiny notepad tucked under one arm, giving it an investigative look. A friendly squirrel is peeking over the raccoon’s shoulder, adding to the scene’s charm. The background is minimal and white, highlighting the detective theme, perfect for educational or exploration-themed clip art.
+negative: EMPTY
+-----------------
+positive: A musical raccoon with large, cheerful eyes and a joyful smile is playing a tiny guitar, sitting on a log surrounded by forest animals like a rabbit, a fox, and a few birds singing along. The raccoon has a bandana tied around its neck, and musical notes float around, creating a lively and heartwarming scene. The background is clean and white, emphasizing the musical theme, making it perfect for music or woodland-themed clip art.
+negative: EMPTY
+-----------------
+positive: An adorable raccoon with fluffy fur and bright, delighted eyes is ice skating on a small, frozen pond. The raccoon is wearing a colorful winter scarf and earmuffs, with its tail swishing behind for balance. A few sparkling ice patterns and snowflakes surround the raccoon, adding to the wintery, magical atmosphere. The background is simple and white, perfect for winter or holiday-themed clip art.
+negative: EMPTY
+-----------------
+positive: A playful raccoon with a mischievous grin and wide, gleaming eyes is holding a fishing pole, standing at the edge of a small pond. The raccoon has a bucket of fish beside it, and a little frog friend is sitting nearby, watching curiously. The raccoon’s tail is dipping into the water, creating ripples, adding a sense of fun and adventure to the scene. The background is minimal and white, making it ideal for outdoor or fishing-themed clip art.
+negative: EMPTY
+-----------------
