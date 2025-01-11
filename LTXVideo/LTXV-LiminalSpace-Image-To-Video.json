@@ -1,0 +1,1373 @@
+{
+  "last_node_id": 213,
+  "last_link_id": 423,
+  "nodes": [
+    {
+      "id": 88,
+      "type": "CLIPTextEncode",
+      "pos": [
+        595.2191772460938,
+        192.0253143310547
+      ],
+      "size": [
+        368.387939453125,
+        148.08070373535156
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 354
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            301
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "title": "negative prompt",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "low quality, worst quality, deformed, distorted, disfigured, motion smear, motion artifacts, fused fingers, bad anatomy, weird hand, ugly , static , people , humans "
+      ]
+    },
+    {
+      "id": 14,
+      "type": "KSamplerSelect",
+      "pos": [
+        1453.2265625,
+        116.9244155883789
+      ],
+      "size": [
+        315,
+        58
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            70
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect"
+      },
+      "widgets_values": [
+        "euler"
+      ]
+    },
+    {
+      "id": 103,
+      "type": "LTXVModelConfigurator",
+      "pos": [
+        1077.6124267578125,
+        136.25540161132812
+      ],
+      "size": [
+        318.4494323730469,
+        278
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 303
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 255
+        },
+        {
+          "name": "conditioning",
+          "type": "IMAGE",
+          "link": 375,
+          "shape": 7
+        },
+        {
+          "name": "initial_latent",
+          "type": "LATENT",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "link": 396,
+          "widget": {
+            "name": "width"
+          }
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "link": 397,
+          "widget": {
+            "name": "height"
+          }
+        },
+        {
+          "name": "img_compression",
+          "type": "INT",
+          "link": 415,
+          "widget": {
+            "name": "img_compression"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            261,
+            299
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "latent",
+          "type": "LATENT",
+          "links": [
+            258
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "sigma_shift",
+          "type": "FLOAT",
+          "links": [
+            259
+          ],
+          "slot_index": 2
+        },
+        {
+          "name": "image_prompt",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVModelConfigurator"
+      },
+      "widgets_values": [
+        "Custom",
+        768,
+        512,
+        121,
+        25,
+        1,
+        true,
+        30
+      ]
+    },
+    {
+      "id": 81,
+      "type": "BasicScheduler",
+      "pos": [
+        1076.777099609375,
+        -30.568424224853516
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 261
+        },
+        {
+          "name": "steps",
+          "type": "INT",
+          "link": 414,
+          "widget": {
+            "name": "steps"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            262
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicScheduler"
+      },
+      "widgets_values": [
+        "linear_quadratic",
+        30,
+        1
+      ]
+    },
+    {
+      "id": 104,
+      "type": "LTXVShiftSigmas",
+      "pos": [
+        1455.647216796875,
+        229.27188110351562
+      ],
+      "size": [
+        315,
+        106
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 262
+        },
+        {
+          "name": "sigma_shift",
+          "type": "FLOAT",
+          "link": 259,
+          "widget": {
+            "name": "sigma_shift"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            380
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVShiftSigmas"
+      },
+      "widgets_values": [
+        1.820833333,
+        true,
+        0.1
+      ]
+    },
+    {
+      "id": 169,
+      "type": "Note",
+      "pos": [
+        1057.6534423828125,
+        -213.2447052001953
+      ],
+      "size": [
+        312.3548278808594,
+        58
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Alternative scheduler is linear-quadratic; in this case, do not use LTXV Shift Sigmas node"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 36,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        1826.2088623046875,
+        -28.839792251586914
+      ],
+      "size": [
+        364.8799743652344,
+        106
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "noise",
+          "type": "NOISE",
+          "link": 72
+        },
+        {
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 302,
+          "slot_index": 1
+        },
+        {
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 70
+        },
+        {
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 380
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 258
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [],
+          "slot_index": 0,
+          "shape": 3
+        },
+        {
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": [
+            383
+          ],
+          "slot_index": 1,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 171,
+      "type": "Note",
+      "pos": [
+        1081.931396484375,
+        696.7033081054688
+      ],
+      "size": [
+        283.80999755859375,
+        85.9932861328125
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Adding more layers will tend to reduce the amount of motion. Start experimenting with layers: 11, 14, and 19"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 173,
+      "type": "Note",
+      "pos": [
+        1439.976806640625,
+        701.6541137695312
+      ],
+      "size": [
+        343.3447570800781,
+        137.82643127441406
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Look at preset field for reasonable range of width x height x frames_numbers parameters.\n\nIncreasing FPS will reduce the overall amount of motion.\n\nImg_compression will add noise to the original image in order to match the training data distribution more closely. Increase it if you are getting little motion in the resulting video."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 170,
+      "type": "Note",
+      "pos": [
+        1817.0267333984375,
+        703.8051147460938
+      ],
+      "size": [
+        309.2375793457031,
+        80.02484130859375
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Setting CFG to 1.0 will reduce running time by skipping unconditioned generation. It may also increase the amount of motion and make the scene more erratic."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 155,
+      "type": "ImageResizeKJ",
+      "pos": [
+        104.77473449707031,
+        -177.68182373046875
+      ],
+      "size": [
+        276.9781188964844,
+        238
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 356
+        },
+        {
+          "name": "get_image_size",
+          "type": "IMAGE",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "width_input",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "width_input"
+          },
+          "shape": 7
+        },
+        {
+          "name": "height_input",
+          "type": "INT",
+          "link": null,
+          "widget": {
+            "name": "height_input"
+          },
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            375
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": [
+            396
+          ],
+          "slot_index": 1
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": [
+            397
+          ],
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageResizeKJ"
+      },
+      "widgets_values": [
+        512,
+        512,
+        "bilinear",
+        false,
+        32,
+        0,
+        0,
+        "center"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        1825.4140625,
+        128.95339965820312
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 383
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 256,
+          "slot_index": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            121
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 128,
+      "type": "LTXVApplySTG",
+      "pos": [
+        1082.5921630859375,
+        465.533203125
+      ],
+      "size": [
+        309.5867004394531,
+        97.8147201538086
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 296
+        }
+      ],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            303
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVApplySTG"
+      },
+      "widgets_values": [
+        "attention",
+        "14"
+      ]
+    },
+    {
+      "id": 130,
+      "type": "STGGuider",
+      "pos": [
+        1451.9091796875,
+        383.44500732421875
+      ],
+      "size": [
+        312.6527404785156,
+        146
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 299
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 300
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 301
+        }
+      ],
+      "outputs": [
+        {
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            302
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "STGGuider"
+      },
+      "widgets_values": [
+        3,
+        1,
+        0.75
+      ]
+    },
+    {
+      "id": 142,
+      "type": "CLIPLoader",
+      "pos": [
+        29.77444076538086,
+        444.52252197265625
+      ],
+      "size": [
+        404.1546936035156,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            353,
+            354
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader"
+      },
+      "widgets_values": [
+        "t5xxl_fp16.safetensors",
+        "ltxv"
+      ]
+    },
+    {
+      "id": 202,
+      "type": "INTConstant",
+      "pos": [
+        -580.2562866210938,
+        -130.75433349609375
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            415
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "img compression",
+      "properties": {
+        "Node name for S&R": "INTConstant"
+      },
+      "widgets_values": [
+        30
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 60,
+      "type": "VHS_VideoCombine",
+      "pos": [
+        -310.0245056152344,
+        -1088.7000732421875
+      ],
+      "size": [
+        466.1572265625,
+        794.1572265625
+      ],
+      "flags": {},
+      "order": 24,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 121,
+          "shape": 7
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "meta_batch",
+          "type": "VHS_BatchManager",
+          "link": null,
+          "shape": 7
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": null,
+          "shape": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "Filenames",
+          "type": "VHS_FILENAMES",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VHS_VideoCombine"
+      },
+      "widgets_values": {
+        "frame_rate": 25,
+        "loop_count": 0,
+        "filename_prefix": "liminal-found-foutage",
+        "format": "video/h264-mp4",
+        "pix_fmt": "yuv420p",
+        "crf": 19,
+        "save_metadata": true,
+        "trim_to_audio": false,
+        "pingpong": false,
+        "save_output": false,
+        "videopreview": {
+          "hidden": false,
+          "paused": false,
+          "params": {
+            "filename": "liminal-found-foutage_00009.mp4",
+            "subfolder": "",
+            "type": "temp",
+            "format": "video/h264-mp4",
+            "frame_rate": 25,
+            "workflow": "liminal-found-foutage_00009.png",
+            "fullpath": "C:\\ComfyUI\\ComfyUI_windows_portable_nvidia\\ComfyUI_windows_portable\\ComfyUI\\temp\\liminal-found-foutage_00009.mp4"
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "type": "RandomNoise",
+      "pos": [
+        -641.5202026367188,
+        -1.4203788042068481
+      ],
+      "size": [
+        272.48248291015625,
+        85.5431137084961
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            72
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise"
+      },
+      "widgets_values": [
+        891535467749,
+        "fixed"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 102,
+      "type": "LTXVLoader",
+      "pos": [
+        20.98324203491211,
+        286.111083984375
+      ],
+      "size": [
+        412.85296630859375,
+        102
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "links": [
+            296
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "links": [
+            255,
+            256
+          ],
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LTXVLoader"
+      },
+      "widgets_values": [
+        "ltx-video-2b-v0.9.safetensors",
+        "bfloat16"
+      ]
+    },
+    {
+      "id": 87,
+      "type": "CLIPTextEncode",
+      "pos": [
+        599.8682861328125,
+        -25.983369827270508
+      ],
+      "size": [
+        375.7699890136719,
+        128.40383911132812
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 353
+        },
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 422,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            300
+          ],
+          "slot_index": 0,
+          "shape": 3
+        }
+      ],
+      "title": "prompt",
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        "A walking urbex video filmed with a bodycam/headbob in a serene, rural landscape at night, the camera moves forward, capturing the tranquil scene of a small white house nestled among tall grass and trees. The lighting is dim, with the moon casting a soft glow on the house and its reflection in the nearby pond, creating a peaceful and slightly eerie atmosphere. The video is realistic in high definition 4k, capturing the details of the house's simple architecture and the surrounding natural elements. The amateur video captures the essence of the place, inviting viewers to explore the quiet beauty of the night."
+      ]
+    },
+    {
+      "id": 198,
+      "type": "INTConstant",
+      "pos": [
+        -583.163330078125,
+        -253.5176239013672
+      ],
+      "size": [
+        210,
+        58
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "value",
+          "type": "INT",
+          "links": [
+            414
+          ],
+          "slot_index": 0
+        }
+      ],
+      "title": "steps",
+      "properties": {
+        "Node name for S&R": "INTConstant"
+      },
+      "widgets_values": [
+        40
+      ],
+      "color": "#1b4669",
+      "bgcolor": "#29699c"
+    },
+    {
+      "id": 106,
+      "type": "LoadImage",
+      "pos": [
+        -265.1502990722656,
+        -182.6373291015625
+      ],
+      "size": [
+        320.8542175292969,
+        314
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            356
+          ],
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "Photo.jpeg",
+        "image"
+      ]
+    },
+    {
+      "id": 213,
+      "type": "ttN text",
+      "pos": [
+        560.0426025390625,
+        -367.7708740234375
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            422
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ttN text"
+      },
+      "widgets_values": [
+        "A walking urbex video filmed with a bodycam/headbob in an abandoned commercial space, the camera moves forward, capturing the checkerboard-tiled floor transitioning into a carpeted area. The walls are lined with white tiles, some sections featuring glass panels with a faint, frosted pattern. The ceiling slopes upward, culminating in a triangular architectural feature painted yellow, adding a splash of color to the muted tones. The lighting is dim, with faint overhead illumination casting soft shadows, creating a somber and eerie atmosphere. The video is realistic in high definition 4k, masterpiece quality, showcasing the intricate textures of the tiles, carpet, and the aged, desolate environment. This amateur video extract immerses viewers in the haunting stillness of the space."
+      ]
+    },
+    {
+      "id": 181,
+      "type": "Note",
+      "pos": [
+        -1071.527587890625,
+        247.93077087402344
+      ],
+      "size": [
+        487.7767028808594,
+        424.157470703125
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "You are an AI assistant expert in writing very precise urbex video descriptions from images of places and spaces. When the user gives you an image representing a place or a space you write a description of a video following this model:\n\n```\nA walking urbex video filmed with a bodycam/headbob in [insert a short description of the place] , the camera moves forward , [insert your description with details], the lighting is [insert a description on the lighting of the place] , the video is realistic in high definition 4k , masterpiece , video extract , amateur video\n\n```\nInstructions for Generating Video Descriptions:\n0. Do not contradict the first frame image.\n1. Begin with a concise, single-paragraph description of the scene, focusing on the key actions in sequence.\n2. Include detailed movements of characters and objects, focusing on precise, observable actions.\n3. Briefly describe the appearance of characters and objects, emphasizing key visual features relevant to the scene.\n 4. Provide essential background details to set the context, highlighting elements that enhance the atmosphere without overloading the description.\n 5. Mention the camera angles and movements that define the visual style of the scene, keeping it succinct.\n 6. Specify the lighting and colors to establish the tone, ensuring they complement the action and setting.\n 7. Ensure the description reflects the source type, such as real-life footage or animation, in a clear and natural manner."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 193,
+      "type": "StringConstantMultiline",
+      "pos": [
+        -529.5230712890625,
+        232.76104736328125
+      ],
+      "size": [
+        474.0000305175781,
+        456
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [],
+          "slot_index": 0
+        }
+      ],
+      "title": "system prompt",
+      "properties": {
+        "Node name for S&R": "StringConstantMultiline"
+      },
+      "widgets_values": [
+        "You are an AI assistant expert in writing very precise urbex video descriptions from images of places and spaces. When the user gives you an image representing a place or a space you write a description of a video following this model:\n\n```\nA walking urbex video filmed with a bodycam/headbob in [insert a short description of the place] , the camera moves forward , [insert your description with details], the lighting is [insert a description on the lighting of the place] , the video is realistic in high definition 4k , masterpiece , video extract , amateur video\n\n```\n\n\nInstructions for Generating Video Descriptions:\n0. Do not contradict the first frame image.\n1. Begin with a concise, single-paragraph description of the scene, focusing on the key actions in sequence.\n2. Include detailed movements of characters and objects, focusing on precise, observable actions.\n3. Briefly describe the appearance of characters and objects, emphasizing key visual features relevant to the scene.\n 4. Provide essential background details to set the context, highlighting elements that enhance the atmosphere without overloading the description.\n 5. Mention the camera angles and movements that define the visual style of the scene, keeping it succinct.\n 6. Specify the lighting and colors to establish the tone, ensuring they complement the action and setting.\n 7. Ensure the description reflects the source type, such as real-life footage or animation, in a clear and natural manner.\n\nthere some examples : \n\nexample 1 : A walking urbex video filmed with a bodycam/headbob in a residential area, the camera moves forward, capturing a trio of tall palm trees standing proudly in the center of a grassy courtyard. The lighting is dim, casting a purple hue over the scene, creating a mysterious and serene atmosphere. The buildings flanking the courtyard are brick, with windows reflecting the ambient light. The video is realistic in high definition 4k, capturing the essence of the space with a sense of intimacy and exploration.\n\n\nexample 2 : A walking urbex video filmed with a bodycam/headbob in an empty, dimly lit room, the camera moves forward, capturing the spaciousness and simplicity of the space. The beige carpeted floor and white walls create a neutral backdrop, while the chandelier hanging from the ceiling adds a touch of elegance. Two windows with blinds allow a soft, natural light to filter in, casting gentle shadows across the room. The railing on the right side of the frame suggests a staircase leading to another level, adding depth to the scene. The lighting is soft and warm, creating a cozy atmosphere despite the lack of furniture. The video is realistic in high definition 4k, capturing the details of the room with clarity and precision.\n\nexample 3 : A walking urbex video filmed with a bodycam/headbob in a vibrant, child-friendly play area, the camera moves forward, capturing the colorful and playful atmosphere. The floor is adorned with bright orange and red patterns, while the walls are decorated with cheerful illustrations and balloons. The lighting is warm and inviting, with soft shadows adding depth to the scene. The video is shot in high definition 4k, providing a realistic and immersive experience. The amateur video captures the essence of a lively, imaginative space designed for children's enjoyment.",
+        true
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    }
+  ],
+  "links": [
+    [
+      70,
+      14,
+      0,
+      36,
+      2,
+      "SAMPLER"
+    ],
+    [
+      72,
+      37,
+      0,
+      36,
+      0,
+      "NOISE"
+    ],
+    [
+      121,
+      8,
+      0,
+      60,
+      0,
+      "IMAGE"
+    ],
+    [
+      255,
+      102,
+      1,
+      103,
+      1,
+      "VAE"
+    ],
+    [
+      256,
+      102,
+      1,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      258,
+      103,
+      1,
+      36,
+      4,
+      "LATENT"
+    ],
+    [
+      259,
+      103,
+      2,
+      104,
+      1,
+      "FLOAT"
+    ],
+    [
+      261,
+      103,
+      0,
+      81,
+      0,
+      "MODEL"
+    ],
+    [
+      262,
+      81,
+      0,
+      104,
+      0,
+      "SIGMAS"
+    ],
+    [
+      296,
+      102,
+      0,
+      128,
+      0,
+      "MODEL"
+    ],
+    [
+      299,
+      103,
+      0,
+      130,
+      0,
+      "MODEL"
+    ],
+    [
+      300,
+      87,
+      0,
+      130,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      301,
+      88,
+      0,
+      130,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      302,
+      130,
+      0,
+      36,
+      1,
+      "GUIDER"
+    ],
+    [
+      303,
+      128,
+      0,
+      103,
+      0,
+      "MODEL"
+    ],
+    [
+      353,
+      142,
+      0,
+      87,
+      0,
+      "CLIP"
+    ],
+    [
+      354,
+      142,
+      0,
+      88,
+      0,
+      "CLIP"
+    ],
+    [
+      356,
+      106,
+      0,
+      155,
+      0,
+      "IMAGE"
+    ],
+    [
+      375,
+      155,
+      0,
+      103,
+      2,
+      "IMAGE"
+    ],
+    [
+      380,
+      104,
+      0,
+      36,
+      3,
+      "SIGMAS"
+    ],
+    [
+      383,
+      36,
+      1,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      396,
+      155,
+      1,
+      103,
+      4,
+      "INT"
+    ],
+    [
+      397,
+      155,
+      2,
+      103,
+      5,
+      "INT"
+    ],
+    [
+      414,
+      198,
+      0,
+      81,
+      1,
+      "INT"
+    ],
+    [
+      415,
+      202,
+      0,
+      103,
+      6,
+      "INT"
+    ],
+    [
+      422,
+      213,
+      0,
+      87,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 2,
+      "title": "ltxv",
+      "bounding": [
+        1048.6209716796875,
+        -126.787353515625,
+        1292.4163818359375,
+        752.5541381835938
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "prompt",
+      "bounding": [
+        549.6558227539062,
+        -123.56649780273438,
+        481.0020446777344,
+        746.69775390625
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 4,
+      "title": "models",
+      "bounding": [
+        -16.14155387878418,
+        187.95497131347656,
+        548.48388671875,
+        434.312255859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    },
+    {
+      "id": 5,
+      "title": "image",
+      "bounding": [
+        -331.0533447265625,
+        -286.813720703125,
+        857.4088745117188,
+        456.27362060546875
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.724729500000003,
+      "offset": [
+        1215.3564629151415,
+        615.0655035664573
+      ]
+    },
+    "workspace_info": {
+      "id": "tn2wr6gjBJPNV950dOz0l"
+    },
+    "ue_links": []
+  },
+  "version": 0.4
+}
