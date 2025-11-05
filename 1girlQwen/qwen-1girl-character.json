@@ -1,0 +1,806 @@
+{
+  "id": "0e795202-8c8d-45fd-89ae-0db75e25e1b1",
+  "revision": 0,
+  "last_node_id": 105,
+  "last_link_id": 230,
+  "nodes": [
+    {
+      "id": 8,
+      "type": "VAEDecode",
+      "pos": [
+        1384.86083984375,
+        1089.0147705078125
+      ],
+      "size": [
+        210,
+        46
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 190
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 76
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "slot_index": 0,
+          "links": [
+            110
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "VAEDecode",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 60,
+      "type": "SaveImage",
+      "pos": [
+        1571.5369873046875,
+        -136.49266052246094
+      ],
+      "size": [
+        614.8294677734375,
+        1147.7244873046875
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 110
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "SaveImage",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "1GIRL_QWEN"
+      ]
+    },
+    {
+      "id": 75,
+      "type": "ClownsharKSampler_Beta",
+      "pos": [
+        1009.7432250976562,
+        -48.790252685546875
+      ],
+      "size": [
+        436.8544616699219,
+        987.8059692382812
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "shape": 7,
+          "type": "MODEL",
+          "link": 189
+        },
+        {
+          "name": "positive",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 148
+        },
+        {
+          "name": "negative",
+          "shape": 7,
+          "type": "CONDITIONING",
+          "link": 149
+        },
+        {
+          "name": "latent_image",
+          "shape": 7,
+          "type": "LATENT",
+          "link": 209
+        },
+        {
+          "name": "sigmas",
+          "shape": 7,
+          "type": "SIGMAS",
+          "link": null
+        },
+        {
+          "name": "guides",
+          "shape": 7,
+          "type": "GUIDES",
+          "link": null
+        },
+        {
+          "name": "options",
+          "shape": 7,
+          "type": "OPTIONS",
+          "link": null
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          },
+          "link": 208
+        }
+      ],
+      "outputs": [
+        {
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            190
+          ]
+        },
+        {
+          "name": "denoised",
+          "type": "LATENT",
+          "links": null
+        },
+        {
+          "name": "options",
+          "type": "OPTIONS",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "RES4LYF",
+        "ver": "2f84be17fc8d0096ea6b06e29a3133d57c3f65ca",
+        "Node name for S&R": "ClownsharKSampler_Beta",
+        "aux_id": "ClownsharkBatwing/RES4LYF",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        0.5,
+        "exponential/res_2s",
+        "beta57",
+        50,
+        -1,
+        1,
+        2.5,
+        1060912156056933,
+        "randomize",
+        "standard",
+        true
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 95,
+      "type": "EmptyLatentImage",
+      "pos": [
+        299.4465637207031,
+        -133.39981079101562
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            209
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "EmptyLatentImage",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {
+            "width": true,
+            "height": true,
+            "batch_size": true
+          }
+        },
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        1216,
+        1664,
+        1
+      ]
+    },
+    {
+      "id": 96,
+      "type": "UNETLoader",
+      "pos": [
+        -493.4669189453125,
+        -98.39386749267578
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.52",
+        "Node name for S&R": "UNETLoader",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {
+            "unet_name": true,
+            "weight_dtype": true
+          }
+        }
+      },
+      "widgets_values": [
+        "split_files/diffusion_models/qwen_image_bf16.safetensors",
+        "default"
+      ]
+    },
+    {
+      "id": 99,
+      "type": "CLIPLoader",
+      "pos": [
+        -497.55670166015625,
+        52.65412521362305
+      ],
+      "size": [
+        270,
+        106
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.52",
+        "Node name for S&R": "CLIPLoader",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.4.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "split_files/text_encoders/qwen_2.5_vl_7b.safetensors",
+        "qwen_image",
+        "default"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "CLIPTextEncode",
+      "pos": [
+        296.8242492675781,
+        672.7321166992188
+      ],
+      "size": [
+        522.5441284179688,
+        165.83148193359375
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 228
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            149
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Negative Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "cinematic, shallow depth of field, cinematic bokeh, blurred background, portrait, closeup, anime, chibi, big head, anime proportions"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 94,
+      "type": "Seed Generator",
+      "pos": [
+        301.6909484863281,
+        90.14708709716797
+      ],
+      "size": [
+        270,
+        82
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [
+            208
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-image-saver",
+        "ver": "65e6903eff274a50f8b5cd768f0f96baf37baea1",
+        "Node name for S&R": "Seed Generator",
+        "aux_id": "giriss/comfy-image-saver",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {
+            "seed": true
+          }
+        }
+      },
+      "widgets_values": [
+        267017818439540,
+        "randomize"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "CLIPTextEncode",
+      "pos": [
+        289.6831970214844,
+        275.1615905761719
+      ],
+      "size": [
+        551.6572265625,
+        227.44496154785156
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 229
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "slot_index": 0,
+          "links": [
+            148
+          ]
+        }
+      ],
+      "title": "CLIP Text Encode (Positive Prompt)",
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "CLIPTextEncode",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "1girl, in a polished and casual glam selfie with a k-beauty aesthetic, a beautiful young East Asian woman is captured in a centered, head-and-shoulders close-up, posing with her head slightly tilted and a soft, subtle smile, her dark brown eyes holding a direct gaze from under a heavy fringe of vibrant, shaggy, layered pink hair, her face featuring dramatic false eyelashes, sharp winged eyeliner, prominent pink blush, and overlined glossy lips, creating a \"glass skin\" effect with a dewy, oily shine and strong specular highlights on her nose and cheekbones that completely obscures any natural skin texture for an unnaturally smooth, poreless, airbrushed appearance, while she wears a cream-colored eyelet lace camisole with thin spaghetti straps and is accessorized with a layered silver chain necklace featuring a Vivienne Westwood-style orb pendant, all within a brightly lit indoor hair salon in a high-resolution professional DSLR photo characterized by soft, diffuse frontal lighting that creates a sharp, clean image with very low noise."
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 104,
+      "type": "UnetLoaderGGUF",
+      "pos": [
+        -494.4481201171875,
+        272.0272521972656
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            226
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "cf0573351ac260d629d460d97f09b09ac17d3726",
+        "Node name for S&R": "UnetLoaderGGUF",
+        "aux_id": "city96/ComfyUI-GGUF",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "qwen-image-Q8_0.gguf"
+      ]
+    },
+    {
+      "id": 105,
+      "type": "CLIPLoaderGGUF",
+      "pos": [
+        -495.99774169921875,
+        404.08050537109375
+      ],
+      "size": [
+        264.146728515625,
+        82
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            228,
+            229,
+            230
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfyui-gguf",
+        "ver": "cf0573351ac260d629d460d97f09b09ac17d3726",
+        "Node name for S&R": "CLIPLoaderGGUF",
+        "aux_id": "city96/ComfyUI-GGUF",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "Qwen2.5-VL-7B-Instruct-UD-Q8_K_XL.gguf",
+        "qwen_image"
+      ]
+    },
+    {
+      "id": 66,
+      "type": "ModelSamplingAuraFlow",
+      "pos": [
+        297.183837890625,
+        560.42529296875
+      ],
+      "size": [
+        270,
+        58
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 225
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            189
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "ModelSamplingAuraFlow",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        2
+      ]
+    },
+    {
+      "id": 39,
+      "type": "VAELoader",
+      "pos": [
+        249.75477600097656,
+        1088.8175048828125
+      ],
+      "size": [
+        263.249755859375,
+        70.58235931396484
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "slot_index": 0,
+          "links": [
+            76
+          ]
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "VAELoader",
+        "ue_properties": {
+          "version": "7.0.1",
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "qwen_image_vae.safetensors"
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 103,
+      "type": "Lora Loader Stack (rgthree)",
+      "pos": [
+        -73.66099548339844,
+        14.847270011901855
+      ],
+      "size": [
+        271.8785095214844,
+        246
+      ],
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 226
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 230
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            225
+          ]
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": []
+        }
+      ],
+      "properties": {
+        "cnr_id": "rgthree-comfy",
+        "ver": "1.0.2508241658",
+        "Node name for S&R": "Lora Loader Stack (rgthree)",
+        "aux_id": "rgthree/rgthree-comfy",
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.4.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "1girl-qwen_v3.safetensors",
+        1,
+        "NiceGirls_qwen.safetensors",
+        0.4,
+        "samsungcam_qwen.safetensors",
+        0.4,
+        "None",
+        1
+      ]
+    }
+  ],
+  "links": [
+    [
+      76,
+      39,
+      0,
+      8,
+      1,
+      "VAE"
+    ],
+    [
+      110,
+      8,
+      0,
+      60,
+      0,
+      "IMAGE"
+    ],
+    [
+      148,
+      6,
+      0,
+      75,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      149,
+      7,
+      0,
+      75,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      189,
+      66,
+      0,
+      75,
+      0,
+      "MODEL"
+    ],
+    [
+      190,
+      75,
+      0,
+      8,
+      0,
+      "LATENT"
+    ],
+    [
+      208,
+      94,
+      0,
+      75,
+      7,
+      "INT"
+    ],
+    [
+      209,
+      95,
+      0,
+      75,
+      3,
+      "LATENT"
+    ],
+    [
+      225,
+      103,
+      0,
+      66,
+      0,
+      "MODEL"
+    ],
+    [
+      226,
+      104,
+      0,
+      103,
+      0,
+      "MODEL"
+    ],
+    [
+      228,
+      105,
+      0,
+      7,
+      0,
+      "CLIP"
+    ],
+    [
+      229,
+      105,
+      0,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      230,
+      105,
+      0,
+      103,
+      1,
+      "CLIP"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.3513057093107763,
+      "offset": [
+        690.060605022116,
+        142.36035401821596
+      ]
+    },
+    "frontendVersion": "1.32.0",
+    "ue_links": [],
+    "links_added_by_ue": [],
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
+  },
+  "version": 0.4
+}
